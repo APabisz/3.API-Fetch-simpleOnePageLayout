@@ -1,0 +1,53 @@
+.get-users {
+
+  &__label {
+    margin: 0 20px;
+  }
+
+  &__select {
+    flex-basis: 30%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: goldenrod;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+
+  &__option {
+    cursor: pointer;
+  }
+
+  &__input {
+    flex-basis: 30%;
+    width: 60px;
+    padding: 0 5px 0 10px;
+    line-height: 2em;
+    font-size: 16px;
+
+  }
+
+
+  &__btn {
+    flex-basis: 30%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1e90ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: lighten(#1e90ff, 10%)
+    }
+
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }
+
+}

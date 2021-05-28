@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX - Fetch</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <form class="get-users">
+      <label name="gender" class="get-users__label"
+        >Select gender:
+        <select name="gender" class="get-users__select" id="">
+          <option class="get-users__option" value="both" selected>All</option>
+          <option class="get-users__option" value="female">Female</option>
+          <option class="get-users__option" value="male">Male</option>
+        </select></label
+      >
+      <label name="number" class="get-users__label"
+        >Number of users:
+        <input
+          type="number"
+          name="number"
+          min="0"
+          placeholder="How many persons?"
+          class="get-users__input"
+          value="10"
+      /></label>
+      <button type="submit" class="get-users__btn">Get users</button>
+    </form>
+    <div class="user-list"></div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

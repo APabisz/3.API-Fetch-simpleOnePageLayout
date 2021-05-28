@@ -1,0 +1,21 @@
+.user-list {
+  margin-top: 50px;
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.user {
+  flex-basis: 30%;
+  display: flex;
+
+  &__name {
+    align-self: center;
+  }
+
+  &__img {
+    padding: 20px;
+  }
+}
